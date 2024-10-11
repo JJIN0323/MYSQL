@@ -29,4 +29,4 @@ select STUDENT_NO, POINT from tb_grade where CLASS_NO like 'C3118100' order by P
 
 -- 6. 학생 번호, 학생 이름, 학과 이름을 학생 이름으로 오름차순 정렬하여 출력하는 SQL 문을 작성하시오.
 
--- select STUDENT_NO, STUDENT_NAME, CLASS_NAME from tb_student, tb_class order by STUDENT_NAME;
+select STUDENT_NO, STUDENT_NAME from tb_student order by STUDENT_NAME;
